@@ -8,7 +8,7 @@ categories: Spring MVC
 I am currently building a new webapp from scratch using Spring Web MVC. Spring, Spring Web MVC and a few Java concepts
 like annotations are new to me.
 
-The fact that my app's codebase is currently based on [a non-standard example I plucked from the web](technicalkeeda.com/bootstrap/twitter-bootstrap-with-spring-mvc)
+The fact that my app's codebase is currently based on [a non-standard example I plucked from the web](https://technicalkeeda.com/bootstrap/twitter-bootstrap-with-spring-mvc)
 is not making it any easier.
 
 Right now the app deploys and runs correctly on a Tomcat 7 fired up from within IDEA, the JSPs can't be found after deploying to
