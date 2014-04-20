@@ -1,14 +1,17 @@
 ---
 layout: post
-title:  "Can't find files in Spring MVC"
+title:  "Can't find files in Spring MVC **Solved**"
 date:   2014-03-23 20:32:58
 categories: Spring MVC
 ---
 
+*Solution*: the reason why my JSP files couldn't be found was that I started the project entirely from scratch. However, if you want to deploy to Openshift
+you require Openshift's .openshift folder that contains the default configuration for the Tomcat cartridge. The problem had nothing to do with my web.xml and servlet definitions.
+
 I am currently building a new webapp from scratch using Spring Web MVC. Spring, Spring Web MVC and a few Java concepts
 like annotations are new to me.
 
-The fact that my app's codebase is currently based on [a non-standard example I plucked from the web](https://technicalkeeda.com/bootstrap/twitter-bootstrap-with-spring-mvc)
+The fact that my app's codebase is currently based on [a non-standard example I plucked from the web](http://technicalkeeda.com/bootstrap/twitter-bootstrap-with-spring-mvc)
 is not making it any easier.
 
 Right now the app deploys and runs correctly on a Tomcat 7 fired up from within IDEA, the JSPs can't be found after deploying to
