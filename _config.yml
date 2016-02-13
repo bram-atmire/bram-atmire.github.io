@@ -1,4 +1,4 @@
 name: Bram's Dev Blog
 author: Bram Luyten
 markdown: kramdown
-pygments: true
+future: true
