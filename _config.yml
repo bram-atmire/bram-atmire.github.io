@@ -1,4 +1,4 @@
 name: Bram's Dev Blog
 author: Bram Luyten
-markdown: redcarpet
+markdown: kramdown
 pygments: true
