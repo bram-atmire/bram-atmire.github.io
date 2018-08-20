@@ -23,11 +23,11 @@ For me, it's all of the following
 ## Build into the morning routine
 
 I want to try the following:
-5.30 Get up
-6.00 Start coding
-6.30 Wrap up & plan/prepare the coding of the next day
-6.45 Blog/report progress
-7.00 Breakfast, rest of the "normal" morning routine
+* 5.30 Get up
+* 6.00 Start coding
+* 6.30 Wrap up & plan/prepare the coding of the next day
+* 6.45 Blog/report progress
+* 7.00 Breakfast, rest of the "normal" morning routine
 
 I hope that by including this planning for the next day in here, I can get the motivation going and make it easy to get started the next day, since the strategy/goal for the next day should already be laid out.
 
