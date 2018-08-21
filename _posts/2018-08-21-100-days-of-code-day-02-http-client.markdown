@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "100 Days of Code introduction + Day 01 report"
+title:  "100 Days of Code Day 02 report"
 date:   2018-08-21 06:44:00
 categories: 100DaysOfCode
 ---
