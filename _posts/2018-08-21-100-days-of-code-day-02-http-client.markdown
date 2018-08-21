@@ -5,8 +5,6 @@ date:   2018-08-21 06:44:00
 categories: 100DaysOfCode
 ---
 
-# 100 Days of Code - Day 02 Report
-
 Working according to the plan, I found out that bumping the crawler commons version created a maven dependency conflict between the version of httpclient that was loaded by crawler commons and the 4.3.3 version I had pinned down in the project.
 
 I used the diagram > Maven dependency viewer in IntelliJ IDEA for the first time. Most lines in there were blue, but some of them were red.
