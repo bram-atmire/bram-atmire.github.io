@@ -8,7 +8,7 @@ categories: 100DaysOfCode
 Working according to the plan, I found out that bumping the crawler commons version created a maven dependency conflict between the version of httpclient that was loaded by crawler commons and the 4.3.3 version I had pinned down in the project.
 
 I used the diagram > Maven dependency viewer in IntelliJ IDEA for the first time. Most lines in there were blue, but some of them were red.
-These meant conflicting or unsatisfied dependencies according to [The IDEA Manual for the Dependency Viewer]  (https://www.jetbrains.com/help/idea/2016.3/working-with-maven-dependencies.html)
+These meant conflicting or unsatisfied dependencies according to [The IDEA Manual for the Dependency Viewer](https://www.jetbrains.com/help/idea/2016.3/working-with-maven-dependencies.html)
 
 Clicking on one particular dependency reveals which version is being used where. I decided dropping my own pinned down version, as it turned out that crawlercommons was already providing a newer one.
 
