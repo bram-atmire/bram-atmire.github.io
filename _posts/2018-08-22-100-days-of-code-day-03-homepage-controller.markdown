@@ -5,6 +5,8 @@ date:   2018-08-22 06:14:00
 categories: 100DaysOfCode
 ---
 
+Early rise! GF needs to be very early at work in order to leave very early, so today's alarm clock was set to 5am instead of 5.30.
+
 In sample webapps you find for Spring MVC, the first page your see is different from all other pages in the app, as it doesn't pull any data from your app. In a simple config, there is a welcome list, that directs you to index.jsp. That's what I was using so far for the [Atmire Analyzer](https://analyzer.atmire.com)
 
 In order to pull some data to the front page, about number of repositories or items already indexed etc, I needed to change this in a proper controller, similar to all other pages are being served. Controllers are basically java classes where methods are annotated with the request path they are targeting.
