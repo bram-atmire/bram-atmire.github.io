@@ -30,9 +30,9 @@ Work on duplicates
 
 # Future days
 
-Change styling to true Atmire style.
-Add recently verified items to the homepage.
-Optimize my hideous methods for getItemcount and getRepoCount.
+* CSS Bonanza: Change styling to true Atmire style.
+* Add recently verified items to the homepage.
+* Optimize my hideous methods for getItemcount and getRepoCount.
 
 # Sustainability
 
