@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "100 Days of Code Day 06 report"
-date:   2018-08-25 11:00:00
+date:   2018-08-25 14:06:00
 categories: 100DaysOfCode
 ---
 
