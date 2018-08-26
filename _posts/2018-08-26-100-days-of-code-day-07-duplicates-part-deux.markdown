@@ -15,9 +15,9 @@ So after a while, I'm now sitting here with a bunch of local branches, of which 
 
 [This stackoverflow post](https://stackoverflow.com/questions/6127328/how-can-i-delete-all-git-branches-which-have-been-merged) has a super handy command for deleting branches that have already been merged into master, with peace of mind.
 
-In my [post from yesterday](http://bram-atmire.github.io/100daysofcode/2018/08/25/100-days-of-code-day-06-duplicates.html) I mentioned the challenges around duplicates.
-
 # Back to dealing with duplicates
+
+In my [post from yesterday](http://bram-atmire.github.io/100daysofcode/2018/08/25/100-days-of-code-day-06-duplicates.html) I mentioned the challenges around duplicates.
 
 The basic duplicate qualification algorithm I use is checking:
 * if the item count of the repository is the same
@@ -88,7 +88,3 @@ I'm strongly thinking about raising the stakes by
 * asking people to sponsor me and to give an amount to a charity for each day I successfully complete
 
 This way, every day would be a win.
-
-
-
-
