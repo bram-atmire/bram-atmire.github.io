@@ -76,10 +76,11 @@ Try to find an automated way to cleanup "dead" repositories that are no longer o
 
 # Future days
 
-Get my IntelliJ IDEA Shortcuts in order (CMD+1, CMD+/, ...)
-Change styling to true Atmire style.
-Add recently verified items to the homepage.
-Optimize my hideous methods for getItemcount and getRepoCount.
+* Get my IntelliJ IDEA Shortcuts in order (CMD+1, CMD+/, ...)
+* Change styling to true Atmire style.
+* Add recently verified items to the homepage.
+* Optimize my hideous methods for getItemcount and getRepoCount.
+* Switch over to another project: start working on DSpace 7 / Angular
 
 # Sustainability
 
