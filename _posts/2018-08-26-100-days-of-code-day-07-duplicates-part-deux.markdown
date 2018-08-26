@@ -5,6 +5,8 @@ date:   2018-08-26 17:16:00
 categories: 100DaysOfCode
 ---
 
+# Git: delete merged branches with confidence 
+
 Very small thing I had to use today, that I had looked up in the past: version-control wise, I have been using Atmire's Gitlab server for this project. Every time I want to create a solution for a particular problems, I create an issue in my Gitlab project, and use the number of that issue as the name of my branch.
 
 After I consider something ready for deployment to prod (https://analyzer.atmire.com), I merge my branch locally with master, and push my master branch upstream to the Atmire Gitlab server. So my issue-fix branches actually never go to the server.
@@ -15,9 +17,11 @@ So after a while, I'm now sitting here with a bunch of local branches, of which 
 
 In my [post from yesterday](http://bram-atmire.github.io/100daysofcode/2018/08/25/100-days-of-code-day-06-duplicates.html) I mentioned the challenges around duplicates.
 
+# Back to dealing with duplicates
+
 The basic duplicate qualification algorithm I use is checking:
-- if the item count of the repository is the same
-- if they are based in the same country
+* if the item count of the repository is the same
+* if they are based in the same country
 
 Aside from this, I also test if the URL already appears in a similar form. HTTP vs HTTPs etc.
 
