@@ -29,13 +29,13 @@ Since I wasn't entirely finished, I'm now iterating over the stated problem case
 
 ## SOLVED: Problem case 1: Partially different hostnames, still same repo
 
-http://theses.ucalgary.ca/  
-http://prism.ucalgary.ca/   
+* http://theses.ucalgary.ca/  
+* http://prism.ucalgary.ca/   
 
 http://theses.ucalgary.ca/ actually redirects to https://prism.ucalgary.ca/handle/1880/100029. Because I now also check on partial url matches of what's already in the DB, AFTER following the redirect, this was solved.
 
-http://research.wsulibs.wsu.edu/xmlui/  
-https://research.libraries.wsu.edu/xmlui/
+* http://research.wsulibs.wsu.edu/xmlui/  
+* https://research.libraries.wsu.edu/xmlui/
 
 This case is also addressed, because I now regard items from the same country, with the same head title and the same item count, as identical, regardless of their URLs.
 
@@ -47,22 +47,22 @@ Solution: every time when I compare against a potential duplicate candidate, I m
 
 ## SOLVED: Problem case 3: Domain names that partially overlap
 
-https://www.openstarts.units.it/    
-http://www.openstarts.units.it/dspace/  
+* https://www.openstarts.units.it/    
+* http://www.openstarts.units.it/dspace/  
 
 Pretty obvious that this is the same repository, but it slipped through the initial domain detection because of the extra subdomain. This can be fixed by first getting the item count, and only then rejecting it as a duplicate if the item counts match.
 
 Another variation of the same, institutions running both JSPUI and XMLUI webapps, the two different user interfaces of DSpace:
 
-http://dspace.sctimst.ac.in/xmlui/  
-http://dspace.sctimst.ac.in/jspui/  
+* http://dspace.sctimst.ac.in/xmlui/  
+* http://dspace.sctimst.ac.in/jspui/  
 
 ==> Both of these are now solved as well
 
 ## SOLVED: Problem case 4: Completely different TLD, same repository
 
-https://beardocs.baylor.edu/xmlui/
-https://baylor-ir.tdl.org/baylor-ir/
+* https://beardocs.baylor.edu/xmlui/
+* https://baylor-ir.tdl.org/baylor-ir/
 
 Here it's getting harder for being really sure we don't exclude false negatives. If a repository is in the same country and has the same item count, it can HAPPEN that they are genuinly different repositories. 
 
