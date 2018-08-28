@@ -36,6 +36,7 @@ Investigate the case of [CAS IR GRID](http://www.irgrid.ac.cn/) and see if there
 * Change CSS styling to true Atmire style.
 * Switch to a different project: start working on DSpace 7 Angular
 
+
 # Sustainability - Raising the stakes (No change here)
 
 Just keeping this section in the report. It was already in here earlier, didn't change or makeup my mind yet.
