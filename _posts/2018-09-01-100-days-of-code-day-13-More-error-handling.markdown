@@ -41,7 +41,7 @@ Proper error reporting for the end user if the submitted url is a working websit
 
 I'm raising the stakes by
 * giving €100 to Charity:Water for every day I miss.
-* asking people to sponsor me and to give an amount to a charity for each day I successfully complete
+* asking people to sponsor me and to give a self defined amount to Charity:Water for each day I successfully complete
 
 This way, every day would be a win. These are the rules that I'll apply:
 
