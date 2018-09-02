@@ -27,7 +27,7 @@ My check if adding a repository was successful still isn't good enough. At the e
 
 # Day 15 Plan
 
-CSS !!!
+CSS overhaul for analyzer.atmire.com
 
 Start getting rid of the custom, dark style of the site. Switch to white and to the official Atmire branding!
 
@@ -42,13 +42,13 @@ Start getting rid of the custom, dark style of the site. Switch to white and to 
 
 # Future Days - Atmire.com work
 
-* Work on SEO for atmire.com
-* Setup IDEA so I can start editing these blogposts from there, instead of in a text editor
-* Developer productivity: Get my IntelliJ IDEA Shortcuts in order (CMD+1, CMD+/, ...)
+Investigate and work on search engine optimization (SEO) for the main atmire.com website.
 
 # Future Days - other ideas
 
-* Switch to a different project: start working on DSpace 7 Angular
+1. Switch to a different project: start working on DSpace 7 Angular
+2. Setup IDEA so I can start editing these blogposts from there, instead of in a text editor
+3. Developer productivity: Get my IntelliJ IDEA Shortcuts in order (CMD+1, CMD+/, ...)
 
 # Sustainability - Raising the stakes - Looking for sponsors
 
@@ -74,7 +74,7 @@ I will raise the stakes this way and gather money for Charity:Water. Let me know
 
 # September tracking
 
-Will only log the failed days here
+Will only log the failed days here. No failed days so far.
 
 # Thanks to the following sponsors!
 
