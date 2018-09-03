@@ -64,7 +64,7 @@ Right now, all the titles I use everywhere in the application have the same kind
 
 Even though it's far from finished yet, still decided to ship the update to https://analyzer.atmire.com, so you can follow along the transformation.
 
-# Day 15 Plan
+# Day 16 Plan
 
 Already inverted the white and black, but now I have to find new background imagery. Introduce separate styling for separate kinds of titles.
 
