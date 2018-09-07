@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "100 Days of Code Day 19 report - SEO"
-date:   2018-09-06 06:55:00
+title:  "100 Days of Code Day 19 report - Landing Pages"
+date:   2018-09-07 07:04:00
 categories: 100DaysOfCode
 ---
 
