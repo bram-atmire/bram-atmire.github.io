@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "100 Days of Code Day 21 report - CSS"
+title:  "100 Days of Code Day 22 report - CSS"
 date:   2018-09-10 07:30:00
 categories: 100DaysOfCode
 ---
@@ -17,7 +17,7 @@ After the intro, the section is just white with light blue. The white feels too 
 
 When turning it into a darker color, I noticed there are padding issues on the left and the bottom, with sections of white still popping up.
 
-# Day 22 Plan
+# Day 23 Plan
 
 * CSS: resolve padding issues and make the background of the "basic principles" section darker again.
 * Investigate empty rows with TODO message showing up in the list of recently scanned repos
