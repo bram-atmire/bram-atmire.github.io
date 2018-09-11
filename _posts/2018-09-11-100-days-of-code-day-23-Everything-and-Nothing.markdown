@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "100 Days of Code Day 23 report - Everything and nothing"
-date:   2018-09-11 22:44:00
+date:   2018-09-11 23:07:00
 categories: 100DaysOfCode
 ---
 
@@ -116,5 +116,3 @@ Will only log the failed days here. No failed days so far.
 # Thanks to the following sponsors!
 
 1. Jan & Hilde: €2 per successful day (Yes, these are my parents)
-
-
