@@ -38,8 +38,7 @@ I was looking into the second option but no success so far. Found following rela
 
 [How can I check in a Bash script if my local Git repository has changes?](https://stackoverflow.com/questions/5143795/how-can-i-check-in-a-bash-script-if-my-local-git-repository-has-changes)
 
-[How to make a file (e.g. a .sh script) executable, so it can be run from terminal]
-](https://askubuntu.com/questions/229589/how-to-make-a-file-e-g-a-sh-script-executable-so-it-can-be-run-from-termina)
+[How to make a file (e.g. a .sh script) executable, so it can be run from terminal](https://askubuntu.com/questions/229589/how-to-make-a-file-e-g-a-sh-script-executable-so-it-can-be-run-from-termina)
 
 # Day 28 Plan
 
