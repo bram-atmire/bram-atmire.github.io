@@ -26,7 +26,7 @@ Some of the things I learned included
 * the square braces operator is the equal to the command test
 * with $? you can get the result of the previous command
 
-What finally worked was the following:
+What finally worked to positively evaluate the string comparison statement was the following:
 
 ```bash
 reslog=$([ "`git log --pretty=%H ...refs/heads/master^ | head -n 1`" = "`git ls-remote origin -h refs/heads/master |cut -f1`" ] && echo "up to date" || echo "not up to date")
@@ -36,9 +36,11 @@ if [ "$reslog" = "*not up to date*" ] ; then
 Assuming that I had something going on with leading or trailing spaces.
 I could also look into removing these leading or trailing spaces cfr [how do I trim leading and trailing whitespace from each line of some output?](https://unix.stackexchange.com/questions/102008/how-do-i-trim-leading-and-trailing-whitespace-from-each-line-of-some-output), but did not have the time to do this yet.
 
+But frustratingly enough, the update script still doesn't evaluate and update correctly. To be continued tomorrow.
+
 # Day 31 Plan
 
-* Look into how to start with DSpace 7 and Angular
+* Fix the execution of the update script.
 
 # Future days - Analyzer.atmire.com work
 
