@@ -11,26 +11,40 @@ I ran into weird terminal [crashes yesterday](http://bram-atmire.github.io/100da
 
 To circumvent the problem, I'm trying another approach from the [git add, commit and push commands in one?](https://stackoverflow.com/questions/19595067/git-add-commit-and-push-commands-in-one) thread, the one where the alias is added in the gitconfig, and not in the shell config.
 
+From what I can tell now, the following is working and has no side effects so far unlike yesterday's attempt.
 
+```bash
+[alias]
+        acp = "!f() { git add -A && git commit -m \"$@\" && git push origin master; } ; f"
+```
 
+And I can now just do git acp "Day 32 post", to do all three at once.
 
+# DSpace 7 and Angular
 
-With these blog updates, as well as with code updates, the end always involves 3 different commands.
-* Git add to stage the changed files
-* Git commit to commit the change and add a commit message
-* Git push, to push my local changes on master to the remote origin master
+There's a lot of information out there on DSpace 7 and the Angular work. It feels daunting and I don't really know where to start.
+Here's what I've looked at so far:
 
-An exception here is larger work on a local feature branch, that I always first merge to master before pushing upstream.
-I was wondering of the three can't be done in a single operation.
+* [DSpace 7 code demonstrator](https://dspace7-demo.atmire.com/home)
+* [DSpace 7 Angular UI Development](https://wiki.duraspace.org/display/DSPACE/DSpace+7+-+Angular+UI+Development) 
 
-* [git add, commit and push commands in one?](https://stackoverflow.com/questions/19595067/git-add-commit-and-push-commands-in-one)
-* [Adding a function() to .zshrc](https://stackoverflow.com/questions/44647789/adding-a-function-to-zshrc)
+In the past I had already installed & deployed the DSpace 7 Angular UI project for the workshop at the Open Repositories 2018 conference.
+While trying to spin this up again, it complained that my node version was out of date and that node 8 or newer was required.
 
-Adding this function to my .zshrc file doesn't seem to be entirely error free. In IDEA, it kills my terminal every time I type "git" now. Possibly due to some auto completing feature. But I'm also using oh-my-zsh, so maybe there's a conflict in there as well. Will continue this tomorrow. In the non-IDEA terminal I've also seen crashes that I can't explain right now. Wonder if there's a log that can tell me more about these kinds of crashes.
+I had node version manager (nvm) already installed before, but the alias seemed to be broken. Learned that brew installations of nvm are officially unsupported by the developers of nvm, so removed my brew installed version of nvm entirely. Had to manually add lines to .zshrc to get the nvm alias working there, but after that I was able to easily install and use the latest LTS version of node.
 
-# Day 32 Plan
+In the end, the yarn install successfully completed.
 
-* Fix my short hand alias for git add, git commit and git push origin master on zsh/oh-my-zsh.
+# Day 33 Plan
+
+* Go through first steps of Atmire Angular training to develop a GDPR cookie consent popup for DSpace 7
+
+# Future days - DSpace 7 Angular
+
+* Translate of the standard messages keys in Dutch, to learn how i18n in Angular works
+* Build a feature where users can customize their own language tags, straight from the UI, by switching on some kind of "translator" mode, to do these changes at runtime
+* UI for exporting their customized messages
+* UI for enabling/disabling particular languages
 
 # Future days - Analyzer.atmire.com work
 
@@ -44,11 +58,9 @@ Adding this function to my .zshrc file doesn't seem to be entirely error free. I
 * Transition from plain CSS to SASS to make it prettier and learn about SASS at the same time
 * Instead of the 5 minute cron job, look into a gitlab webhook that executes the update script on prod whever something is committed to master.
 
-# Future Days - other ideas
+# Future Days - Productivity
 
-1. Switch to a different project: start working on DSpace 7 Angular
-2. Setup IDEA so I can start editing these blogposts from there, instead of in a text editor
-3. Developer productivity: Get my IntelliJ IDEA Shortcuts in order (CMD+1, CMD+/, ...)
+* Get my IntelliJ IDEA Shortcuts for comments in order
 
 # Future days - Jekyll http://bram-atmire.github.io/ site
 
