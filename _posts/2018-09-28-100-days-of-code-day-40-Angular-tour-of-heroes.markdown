@@ -25,6 +25,8 @@ You have to declare components in a NgModule before you can use them in your tem
 
 # Day 41 Plan
 
+Figure out how I can resolve a problem with two git repositories in different subfolders, that are inadvertedly configured as git submodules, so I can push exercises for the ng-book to my Github repo
+
 Continue on p53 of [ng-book 2](https://www.ng-book.com/2/)
 
 # Future days - DSpace 7 Angular
