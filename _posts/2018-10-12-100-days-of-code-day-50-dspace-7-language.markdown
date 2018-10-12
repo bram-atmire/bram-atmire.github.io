@@ -1,22 +1,17 @@
 ---
 layout: post
-title:  "100 Days of Code Day 49 - DSpace 7 Language"
-date:   2018-10-11 07:15:00
+title:  "100 Days of Code Day 50 - DSpace 7 Language"
+date:   2018-10-12 07:05:00
 categories: 100DaysOfCode
 ---
 
-# Creating a lang-switch component in the shared module
+# Bootstrap dropdown with list instead of buttons
 
-To avoid working directly in the header, I moved the language switch to become its own component in the shared module.
-By importing that shared module, you don't have to import a whole bunch of components at once.
+I was struggling with the styling because I was using buttons and I didn't want the dropdown to look like buttons.
+The [nbgDropdown](https://ng-bootstrap.github.io/#/components/dropdown/examples) only lists an example based on buttons.
+Stackoverflow showed me the way with [Bootstrap Menu list item dropdown not button](https://stackoverflow.com/questions/38487604/bootstrap-menu-list-item-dropdown-not-button?rq=1).
 
-# Translated the names of the languages
-
-Added the names of the languages, in the different translation files and also using them.
-
-# Squashing!
-
-Squashed all my previous commits into one, so I now have something I can send as a pull request
+Sadly, this is not working out great and the actual language switching is now broken and I still haven't figured out to turn the color into grey instead of the blue it has now.
 
 # Day 50 Plan
 
