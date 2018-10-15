@@ -17,7 +17,7 @@ The icon wasn't aligned with the middle of the text and vertical align: middle w
 
 When certain language names get too long in a particular language, the X button is being pushed to the second line, like is happening here:
 
-![X button moving to the line below](/assets/img/2018-10-15-dropdown-01.png =100x)
+![X button moving to the line below](../../../../assets/img/2018-10-15-dropdown-01.png)
 
 I tried to fix this by playing with the min-width value of the dropdown menu, which seemed to work to some extent.
 ```css
@@ -26,15 +26,15 @@ I tried to fix this by playing with the min-width value of the dropdown menu, wh
 }
 ```
 
-![Min-width fix on the dropdown menu](/assets/img/2018-10-15-dropdown-02.png =100x)
+![Min-width fix on the dropdown menu](../../../../assets/img/2018-10-15-dropdown-02.png)
 
 But when the text on the login button gets too short, the side effect is that the x symbols are no longer visible at all.
 
-![Login label too short](/assets/img/2018-10-15-dropdown-03.png =100x)
+![Login label too short](../../../../assets/img/2018-10-15-dropdown-03.png)
 
 # Bonus
 
-Figured out how to work with images in this blog.
+Figured out how to work with images in this blog. The trick to resize them though with =100x at the end of the URL and the relative paths didn't work yet though.
 
 # Day 53 Plan
 
