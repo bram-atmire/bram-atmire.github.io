@@ -33,7 +33,7 @@ The automated checks on my pull request were failing because of code style issue
 
 [My pull request](https://github.com/DSpace/dspace-angular/pull/308) was updated with new commits, that hopefully resolve all of the open comments.
 
-# Day 57 Plan
+# Day 58 Plan
 
 Continue with implementing the actions and the reducer for the language switch.
 Continue with [Egghead getting started with redux](https://egghead.io/courses/getting-started-with-redux), video 6.
