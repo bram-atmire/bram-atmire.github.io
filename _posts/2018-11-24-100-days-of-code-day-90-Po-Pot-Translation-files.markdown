@@ -23,7 +23,7 @@ In the current JSON format, each message has a particular key. The keys are orga
     },
 ``` 
 
-So basically community.page.news is the key and "News" is the message. These keys are used in the code with the pipe | translate to use the applicable translation.
+So basically community.page.news is the key and "News" is the message. These keys are used in the code with the pipe translate to use the applicable translation.
 
 [The PO Format](http://pology.nedohodnik.net/doc/user/en_US/ch-poformat.html) seems to indicate that such keys don't exist in the .po format and that one translation, for example the English one, of a particular string, works as the key. 
 
