@@ -35,6 +35,10 @@ Thinking about FamilieKiosk and Telenet more, I think it would be a killer app f
 
 This would remove the need for separate hardware (raspberri pi + custom controller), because the digibox/set top box is already there and comes with a remote ... 
 
+# Documentation pull request
+
+Saw a few opportunities to tweak the docs and [sent in a Pull request](https://github.com/TeamScheire/familiekiosk/pull/3).
+
 # Done and TODO
 
 Prior to today, my dad had ordered the parts. We basically put together the whole thing, hardware and software, in a couple of hours. The thing that remains is to deploy/install in my grandmother's home.
