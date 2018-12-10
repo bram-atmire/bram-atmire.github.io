@@ -42,7 +42,7 @@ collection.page.news
 On [the place where I would expect that key](https://github.com/DSpace/dspace-angular/blob/master/src/app/+collection-page/collection-page.component.html#L24), I'm seeing community.page.news instead, maybe that's just a typo or maybe I
  don't understand the logic properly.
 
-# Case 3 - key used, but not put in the translation pipe
+# Case 3 - key used, but only gets into translation pipe after parameter is renamed
 
 When someone defines a [comcol-page-content](https://github.com/DSpace/dspace-angular/blob/master/src/app/+collection-page/collection-page.component.html#L34) component, 2 parameters need to be supplied: a title and a content parameter. They are not translated at that moment.
 
