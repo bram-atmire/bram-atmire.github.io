@@ -1,9 +1,14 @@
 ---
 layout: post
-title:  "100 Days of Code Day 99 - Missing messages"
-date:   2018-12-10 07:0:00
+title:  "100 Days of Code Day 100 - The finish line"
+date:   2018-12-11 07:00:00
 categories: 100DaysOfCode
 ---
+
+# Installing utteranc.es for comments on the blog
+
+My colleague Philip pointed me to utteranc.es, a commenting system based on Github issues. 
+Trying to install this on this site.
 
 # Messages missing from automated extraction
 
