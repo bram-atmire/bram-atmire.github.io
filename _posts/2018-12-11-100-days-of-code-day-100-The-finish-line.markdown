@@ -69,6 +69,10 @@ In September, I enrolled in Polish classes for which exams are coming up and the
 
 Before the start of 2019, I want to get my head straight on how I'm going to tackle this in 2019. Until then, not sure how much or little I will do in the meantime.
 
+## One more thing
+
+I'm getting myself a big present, more on this once I pull the trigger.
+
 # TODO
 
 ## DSpace 7 Angular
