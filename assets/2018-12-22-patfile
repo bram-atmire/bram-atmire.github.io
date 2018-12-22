@@ -1,0 +1,150 @@
+404.help	We can\'t find the page you\'re looking for. The page may have been moved or deleted. You can use the \"Back\" button below to get back to the home page.
+404.link.home-page	Take me to the home page
+404.page-not-found	page not found
+admin.registries.bitstream-formats.description	This list of bitstream formats provides information about known formats and their support level.
+admin.registries.bitstream-formats.formats.no-items	No bitstream formats to show.
+admin.registries.bitstream-formats.formats.table.internal	internal
+admin.registries.bitstream-formats.formats.table.mimetype	MIME Type
+admin.registries.bitstream-formats.formats.table.name	Name
+admin.registries.bitstream-formats.formats.table.supportLevel.0	Unknown
+admin.registries.bitstream-formats.formats.table.supportLevel.1	Known
+admin.registries.bitstream-formats.formats.table.supportLevel.2	Support
+admin.registries.bitstream-formats.formats.table.supportLevel.head	Support Level
+admin.registries.bitstream-formats.head	Bitstream Format Registry
+admin.registries.bitstream-formats.title	DSpace Angular :: Bitstream Format Registry
+admin.registries.metadata.description	The metadata registry maintains a list of all metadata fields available in the repository. These fields may be divided amongst multiple schemas. However, DSpace requires the qualified Dublin Core schema.
+admin.registries.metadata.head	Metadata Registry
+admin.registries.metadata.schemas.no-items	No metadata schemas to show.
+admin.registries.metadata.schemas.table.id	ID
+admin.registries.metadata.schemas.table.name	Name
+admin.registries.metadata.schemas.table.namespace	Namespace
+admin.registries.metadata.title	DSpace Angular :: Metadata Registry
+admin.registries.schema.description	This is the metadata schema for \"{{namespace}}\".
+admin.registries.schema.fields.head	Schema metadata fields
+admin.registries.schema.fields.no-items	No metadata fields to show.
+admin.registries.schema.fields.table.field	Field
+admin.registries.schema.fields.table.scopenote	Scope Note
+admin.registries.schema.head	Metadata Schema
+admin.registries.schema.title	DSpace Angular :: Metadata Schema Registry
+auth.errors.invalid-user	Invalid email address or password.
+auth.messages.expired	Your session has expired. Please log in again.
+browse.title	Browsing {{ collection }} by {{ field }} {{ value }}
+collection.page.browse.recent.head	Recent Submissions
+collection.page.license	License
+collection.page.news	News
+community.page.license	License
+community.page.news	News
+community.sub-collection-list.head	Collections of this Community
+error.browse-by	Error fetching items
+error.collection	Error fetching collection
+error.community	Error fetching community
+error.default	Error
+error.item	Error fetching item
+error.objects	Error fetching objects
+error.recent-submissions	Error fetching recent submissions
+error.search-results	Error fetching search results
+error.sub-collections	Error fetching sub-collections
+error.top-level-communities	Error fetching top-level communities
+error.validation.license.notgranted	You must grant this license to complete your submission. If you are unable to grant this license at this time you may save your work and return later or remove the submission.
+error.validation.pattern	This input is restricted by the current pattern: {{ pattern }}.
+#: footer.component.html:5
+footer.copyright	copyright © 2002-{{ year }}
+#: footer.component.html:4
+footer.link.dspace	DSpace software
+#: footer.component.html:6
+footer.link.duraspace	DuraSpace
+form.cancel	Cancel
+form.first-name	First name
+form.group-collapse	Collapse
+form.group-collapse-help	Click here to collapse
+form.group-expand	Expand
+form.group-expand-help	Click here to expand and add more elements
+form.last-name	Last name
+form.loading	Loading...
+form.no-results	No results found
+form.no-value	No value entered
+form.remove	Remove
+form.search	Search
+form.submit	Submit
+home.description	
+home.title	DSpace Angular :: Home
+home.top-level-communities.head	Communities in DSpace
+home.top-level-communities.help	Select a community to browse its collections.
+item.page.abstract	Abstract
+item.page.author	Author
+item.page.collections	Collections
+item.page.date	Date
+item.page.files	Files
+item.page.filesection.description	Description:
+item.page.filesection.download	Download
+item.page.filesection.format	Format:
+item.page.filesection.name	Name:
+item.page.filesection.size	Size:
+item.page.link.full	Full item page
+item.page.link.simple	Simple item page
+item.page.uri	URI
+loading.browse-by	Loading items...
+loading.collection	Loading collection...
+loading.community	Loading community...
+loading.default	Loading...
+loading.item	Loading item...
+loading.objects	Loading...
+loading.recent-submissions	Loading recent submissions...
+loading.search-results	Loading search results...
+loading.sub-collections	Loading sub-collections...
+loading.top-level-communities	Loading top-level communities...
+login.form.email	Email address
+login.form.forgot-password	Have you forgotten your password?
+login.form.header	Please log in to DSpace
+login.form.new-user	New user? Click here to register.
+login.form.password	Password
+login.form.submit	Log in
+login.title	Login
+logout.form.header	Log out from DSpace
+logout.form.submit	Log out
+logout.title	Logout
+nav.home	Home
+nav.login	Log In
+nav.logout	Log Out
+pagination.results-per-page	Results Per Page
+pagination.showing.detail	{{ range }} of {{ total }}
+pagination.showing.label	Now showing items 
+pagination.sort-direction	Sort Options
+search.description	
+search.filters.applied.f.author	Author
+search.filters.applied.f.dateIssued.max	End date
+search.filters.applied.f.dateIssued.min	Start date
+search.filters.applied.f.has_content_in_original_bundle	Has files
+search.filters.applied.f.subject	Subject
+search.filters.filter.author.head	Author
+search.filters.filter.author.placeholder	Author name
+search.filters.filter.dateIssued.head	Date
+search.filters.filter.dateIssued.max.placeholder	Minimum Date
+search.filters.filter.dateIssued.min.placeholder	Maximum Date
+search.filters.filter.has_content_in_original_bundle.head	Has files
+search.filters.filter.scope.head	Scope
+search.filters.filter.scope.placeholder	Scope filter
+search.filters.filter.show-less	Collapse
+search.filters.filter.show-more	Show more
+search.filters.filter.subject.head	Subject
+search.filters.filter.subject.placeholder	Subject
+search.filters.head	Filters
+search.filters.reset	Reset filters
+search.form.search	Search
+search.form.search_dspace	Search DSpace
+search.results.head	Search Results
+search.results.no-results-link	quotes around it
+search.results.no-results	Your search returned no results. Having trouble finding what you\'re looking for? Try putting
+search.sidebar.close	Back to results
+search.sidebar.filters.title	Filters
+search.sidebar.open	Search Tools
+search.sidebar.results	results
+search.sidebar.settings.rpp	Results per page
+search.sidebar.settings.sort-by	Sort By
+search.sidebar.settings.title	Settings
+search.title	DSpace Angular :: Search
+search.view-switch.show-grid	Show as grid
+search.view-switch.show-list	Show as list
+sorting.dc.title.ASC	Title Ascending
+sorting.dc.title.DESC	Title Descending
+sorting.score.DESC	Relevance
