@@ -70,5 +70,16 @@ Only to learn that [output escaping doesn't seem to be possible for attributes](
 [XSL - How to disable output escaping for an attribute?](https://stackoverflow.com/questions/2921123/xsl-how-to-disable-output-escaping-for-an-attribute) showed an approach where the entire tag could be
 written as text. Not pretty but it got the job done.
 
-Ticket: https://jira.duraspace.org/browse/DS-4135
-Pull Request: https://github.com/DSpace/DSpace/pull/2317
+```
+<xsl:for-each select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[substring(@element, 1, 9) = 'citation_']" >
+                <xsl:text disable-output-escaping="yes">&lt;meta name="</xsl:text>
+                <xsl:value-of select="@element" />
+                <xsl:text disable-output-escaping="yes">" content="</xsl:text>
+                <xsl:value-of select="." disable-output-escaping="yes" />
+                <xsl:text disable-output-escaping="yes">" /&gt;&#xa;</xsl:text>
+            </xsl:for-each>
+```
+
+[Ticket DS-4135](https://jira.duraspace.org/browse/DS-4135)
+
+[Pull Request: 2317](https://github.com/DSpace/DSpace/pull/2317)
