@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DSpace 7 - PO transition"
-date:   2019-02-17 20:00:00
+date:   2019-02-17 16:00:00
 categories: DSpace7
 ---
 
